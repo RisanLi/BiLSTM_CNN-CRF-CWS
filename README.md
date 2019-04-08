@@ -35,4 +35,6 @@
 - tensorflow1.8
 - MacOS Mojave
 
+## 待完善
+由于经验不足，代码中仍然存在不少bug，欢迎issue
 
