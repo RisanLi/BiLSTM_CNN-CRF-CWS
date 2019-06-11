@@ -1,5 +1,5 @@
 # BiLSTM_CNN-CRF-CWS
-使用双向LSTM和CNN拼接 以及CRF预测 中文分词结果
+使用基于样本迁移的双向LSTM和CNN拼接 以及CRF预测 中文分词结果
 
 
 ## 文件说明
@@ -21,6 +21,9 @@
 |4. |pku_training.utf8|icws2中pku的标准训练预料|用来测试icws2 中的结果
 |5. |pku_test_\[1-3\]|icws2中pku的预测预料|用来预测模型分割该预料的结果
 |6. |pku_self.utf8|根据预测料分词后的效果|用作评测结果的输入
+|7. |pku_train_politics.utf8|样本迁移后的中文分词训练语料库
+|8. |pku_test_politics.utf8|用来预测政治领域分词
+|9. |pku_gold_politics.utf8|对8.中政治领域分词的正确分词结果 使用icwb2中的score测评
 
 ## 数据集和预测指令
 1. 下载icws2的语料库：[icws2预料下载地址](http://sighan.cs.uchicago.edu/bakeoff2005/)
