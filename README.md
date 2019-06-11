@@ -23,7 +23,7 @@
 |6. |pku_self.utf8|根据预测料分词后的效果|用作评测结果的输入
 |7. |pku_train_politics.utf8|样本迁移后的中文分词训练语料库
 |8. |pku_test_politics.utf8|用来预测政治领域分词
-|9. |pku_gold_politics.utf8|对8.中政治领域分词的正确分词结果 使用icwb2中的score测评
+|9. |pku_gold_politics.utf8|对8.中政治领域分词的正确分词结果| 使用icwb2中的score测评
 
 ## 数据集和预测指令
 1. 下载icws2的语料库：[icws2预料下载地址](http://sighan.cs.uchicago.edu/bakeoff2005/)
